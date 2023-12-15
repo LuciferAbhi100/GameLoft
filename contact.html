@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Gameloft</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="img/gameloft.ico" rel="shortcut icon"/>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/animate.css"/>
+
+</head>
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<header class="header-section">
+		<div class="container">
+			<a class="site-logo" href="index.html">
+				<img src="img/gameloft.png" alt="">
+				<img src="img/gameloft1.png" alt="">
+			</a>
+			<div class="user-panel">
+				<a href="#">Login</a>  /  <a href="#">Register</a>
+			</div>
+			<div class="nav-switch">
+				<i class="fa fa-bars"></i>
+			</div>
+			<nav class="main-menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="review.html">Games</a></li>
+					<li><a href="categories.html">Blog</a></li>
+					<li><a href="community.html">Forums</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="latest-news-section">
+		<div class="ln-title">Latest News</div>
+		<div class="news-ticker">
+			<div class="news-ticker-contant">
+				<div class="nt-item"><span class="new">new</span>Disney Speedstrom : it is a free-to-play kart racing game. It features various Disney and Pixar characters racing vehicles. </div>
+				<div class="nt-item"><span class="strategy">strategy</span>Siegefall : A free online strategy game where you can control heroes and use magical cards to attack enemy castles </div>
+				<div class="nt-item"><span class="racing">racing</span>Asphalt 9: Legends : It is a high-octane, visually stunning arcade racing game featuring exotic cars, intense races, and exhilarating gameplay across various platforms. </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<section class="page-info-section set-bg" data-setbg="img/page-top-bg/5.jpg">
+		<div class="pi-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-5 col-lg-6 text-white">
+						<h2>Contact us</h2>
+						<p>We invite you to connect with us via the following channels for any inquiries or assistance</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="page-section spad contact-page">
+		<div class="container">
+			<div class="map" id="map-canvas"></div>
+			<h1>Google Map</h1>
+
+			<div id="googleMap"></div>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.163720264729!2d76.86161757492873!3d8.580252391464228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bf754f94a463%3A0x512af64fbde6e190!2sBrototype%20Trivandrum!5e0!3m2!1sen!2sin!4v1702269985917!5m2!1sen!2sin"style="height: 500px; width: 100%;"></iframe>
+			<script>
+			function myMap() {
+			var mapProp= {
+			center:new google.maps.LatLng(51.508742,-0.120850),
+			zoom:5,
+			};
+			var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			}
+			</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+			<div class="row">
+				<div class="col-lg-4 mb-5 mb-lg-0">
+					<h4 class="comment-title">Contact us</h4>
+					<p>We invite you to connect with us via the following channels for any inquiries or assistance:</p>
+					<div class="row">
+						<div class="col-md-9">
+							<ul class="contact-info-list">
+								<li><div class="cf-left">Address</div><div class="cf-right">1481 Creekside Lane Avila Beach, CA 931</div></li>
+								<li><div class="cf-left">Phone</div><div class="cf-right">+91 80897 86114</div></li>
+								<li><div class="cf-left">E-mail</div><div class="cf-right">abhishekur03@gmail.com</div></li>
+							</ul>
+						</div>
+					</div>
+					<div class="social-links">
+						<a href="https://youtube.com/@lionscreations9533?si=rN4ns1RPiC6TdSPG"><i class="fa fa-youtube"></i></a>
+						<a href="https://x.com/LuciferAbhi0?t=fc8C8oR6MhUVRIk229mHzg&s=09"><i class="fa fa-twitter"></i></a>
+						<a href="https://instagram.com/_lucifer._abhi_?igshid=NGVhN2U2NjQ0Yg=="><i class="fa fa-instagram"></i></a>
+						<a href="https://www.linkedin.com/in/abhishek-u-r-573a7a257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa fa-linkedin"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-8">
+					<div class="contact-form-warp">
+						<h4 class="comment-title">Leave a Reply</h4>
+						<form class="comment-form" action="" id="gform">
+							<div class="row">
+								<div class="col-md-6">
+									<input type="text" pattern="[a-zA-Z .]+[a-zA-Z .]" placeholder="Name" required>
+								</div>
+								<div class="col-md-6">
+									<input type="email" placeholder="Email" required>
+								</div>
+								<div class="col-lg-12">
+									<input type="text" placeholder="Subject"required>
+									<textarea placeholder="Message" required></textarea>
+									<button class="site-btn btn-sm">Send</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="footer-top-section">
+		<div class="container">
+			<div class="footer-top-bg">
+				<img src="img/footer-top-bg.png" alt="">
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="footer-logo text-white">
+						<img src="img/gameloft.png" alt="">
+						<img src="img/gameloft1.png" alt="">
+						<p>Here are some latest posts and top messages check it out</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="footer-widget mb-5 mb-md-0">
+						<h4 class="fw-title">Latest Posts</h4>
+						<div class="latest-blog">
+							<div class="lb-item">
+								<div class="lb-thumb set-bg" data-setbg="img/latest-blog/1.jpg"></div>
+								<div class="lb-content">
+									<div class="lb-date">June 21, 2018</div>
+									<p>PUBG</p>
+									<a href="#" class="lb-author">By Admin</a>
+								</div>
+							</div>
+							<div class="lb-item">
+								<div class="lb-thumb set-bg" data-setbg="img/latest-blog/2.jpg"></div>
+								<div class="lb-content">
+									<div class="lb-date">June 21, 2018</div>
+									<p>Sniper Shot 5</p>
+									<a href="#" class="lb-author">By Admin</a>
+								</div>
+							</div>
+							<div class="lb-item">
+								<div class="lb-thumb set-bg" data-setbg="img/latest-blog/3.jpg"></div>
+								<div class="lb-content">
+									<div class="lb-date">June 21, 2018</div>
+									<p>World of WarCraft</p>
+									<a href="#" class="lb-author">By Admin</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="footer-widget">
+						<h4 class="fw-title">Top Comments</h4>
+						<div class="top-comment">
+							<div class="tc-item">
+								<div class="tc-thumb set-bg" data-setbg="img/authors/1.jpg"></div>
+								<div class="tc-content">
+									<p><a href="#">James Smith</a> <span>on</span> Asphalt 9 : Legends</p>
+									<div class="tc-date">may 30, 2018</div>
+								</div>
+							</div>
+							<div class="tc-item">
+								<div class="tc-thumb set-bg" data-setbg="img/authors/2.jpg"></div>
+								<div class="tc-content">
+									<p><a href="#">Christopher</a> <span>on</span> Dreamlight Vally</p>
+									<div class="tc-date">June 2, 2018</div>
+								</div>
+							</div>
+							<div class="tc-item">
+								<div class="tc-thumb set-bg" data-setbg="img/authors/3.jpg"></div>
+								<div class="tc-content">
+									<p><a href="#">Tom</a> <span>on</span>  Dugeon Hunder VI</p>
+									<div class="tc-date">June 21, 2019</div>
+								</div>
+							</div>
+							<div class="tc-item">
+								<div class="tc-thumb set-bg" data-setbg="img/authors/4.jpg"></div>
+								<div class="tc-content">
+									<p><a href="#">Brady</a> <span>on</span> The Oregon Trail</p>
+									<div class="tc-date">July 17, 2022</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<footer class="footer-section">
+		<div class="container">
+			<ul class="footer-menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="review.html">Games</a></li>
+				<li><a href="categories.html">Blog</a></li>
+				<li><a href="community.html">Forums</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<p class="copyright">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> _ All rights reserved 
+</p>
+		</div>
+	</footer>
+
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.marquee.min.js"></script>
+	<script src="js/main.js"></script>
+
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWTIlluowDL-X4HbYQt3aDw_oi2JP0Krc&sensor=false"></script>
+	<script src="js/map.js"></script>
+	
+	<script>
+		$("#gform").submit((e)=>{
+			e.preventDefault()
+			$.ajax({
+				url:"https://script.google.com/macros/s/AKfycbz05YTcpu2I5x-L482_bg_eTEi9tqU5gG5WIB1te0cXs1IcWFCPlhNrdJ7tRM8SWNwImw/exec",
+				data:$("#gform").serialize(),
+				method:"post",
+				success:function (response){
+					alert("Form submitted successfully")
+					window.location.reload()
+				},
+				error:function (err){
+					alert("Something Error")
+  
+				}
+			})
+		})
+	  </script>
+    </body>
+</html>
